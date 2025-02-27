@@ -1,0 +1,14 @@
+{
+  "name": "env-to-ssm",
+  "version": "1.0.0",
+  "description": "Deploy environment variables to AWS SSM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.540.0",
+    "dotenv": "^16.4.5"
+  }
+} 
