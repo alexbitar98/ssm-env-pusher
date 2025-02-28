@@ -4,11 +4,35 @@
   "description": "Deploy environment variables to AWS SSM",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "env-to-ssm": "index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "@aws-sdk/client-ssm": "^3.540.0",
     "dotenv": "^16.4.5"
+  },
+  "keywords": [
+    "aws",
+    "ssm",
+    "environment",
+    "variables",
+    "cli",
+    "deployment"
+  ],
+  "author": "Alex Bitar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbitar98/env-to-ssm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexbitar98/env-to-ssm/issues"
+  },
+  "homepage": "https://github.com/alexbitar98/env-to-ssm#readme",
+  "publishConfig": {
+    "access": "public"
   }
-} 
+}
